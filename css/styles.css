@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#calculator{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid darkgrey;
+    border-radius: 24px;
+    background-color: lightgrey;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 24px;
+    background-color: white;
+    overflow: hidden;
+}
+#numbers{
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+#history{
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-family: 'Orbitron', sans-serif;
+}
+#displayNum{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 7%;
+    margin-right: 7%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    
+}
+#firstRow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#firstRow button{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#secondRow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#secondRow button{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#thirdRow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thirdRow button{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#fourthRow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fourthRow button{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#fifthRow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#equalBtn button{
+    width: 134px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#equalBtn :hover{
+    background-color: lightblue;
+}
+#zeroDecimal button{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 25px;
+}

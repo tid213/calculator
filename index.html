@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/js-styles.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Shizuru&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <div id="calculator">
+    <div id="output">
+        <div id="numbers">
+            <div id="history">0</div>
+            <div id="displayNum">0</div>
+        </div>
+    </div>
+    <div id="firstRow">
+        <button onclick="resetPage()">AC</button>
+        <button onclick="numClear()">C</button>
+        <button>%</button>
+        <button onclick="chooseOp(3)">÷</button>
+    </div>
+    <div id="secondRow">
+        <button onclick="displayNum(7)">7</button>
+        <button onclick="displayNum(8)">8</button>
+        <button onclick="displayNum(9)">9</button>
+        <button onclick="chooseOp(1)">+</button>
+    </div>
+    <div id="thirdRow">
+        <button onclick="displayNum(4)">4</button>
+        <button onclick="displayNum(5)">5</button>
+        <button onclick="displayNum(6)">6</button>
+        <button onclick="chooseOp(2)">x</button>
+    </div>
+    <div id="fourthRow">
+        <button onclick="displayNum(1)">1</button>
+        <button onclick="displayNum(2)">2</button>
+        <button onclick="displayNum(3)">3</button>
+        <button onclick="chooseOp(4)">-</button>
+    </div>
+    <div id="fifthRow">
+        <div id = "zeroDecimal">
+            <button onclick="displayNum(0)">0</button>
+            <button onclick="displayNum('.')">.</button>
+        </div>
+        <div id="equalBtn" >
+            <button onclick="equalButton()">=</button>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+<footer>2022 - Joshua Tidwell</footer>
+</html>
